@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main article {
+  border: 1px solid red;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px 0px;
+  background-color: green;
+}
+main article section .service-image {
+  width: 400px;
+  border-radius: 16px;
+}/*# sourceMappingURL=service.css.map */

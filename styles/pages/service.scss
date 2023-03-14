@@ -1,0 +1,27 @@
+@import "../defaults/color";
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    article {
+        border: 1px solid red;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 20px 0px;
+        background-color: $primary-color;
+
+        section {
+            .service-image {
+                width: 400px;
+                border-radius: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (min width: 600px;);
+    main {
+        jusitfy-content: space-around;
+    }
