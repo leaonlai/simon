@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #a5a5a5;
+  background-color: green;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,10 +21,10 @@ header .logo-name .name {
   font-size: 28px;
 }
 header .logo-name .name .coder-text {
-  color: #45A7C5;
+  color: green;
 }
 header .logo-name .name .academy-text {
-  color: #1C3C5C;
+  color: green;
 }
 header .nav-items {
   width: 100%;
@@ -66,7 +66,7 @@ footer .social-media {
   margin-bottom: 24px;
 }
 footer .social-media a i {
-  color: #1C3C5C;
+  color: lightblue;
   font-size: 24px;
 }
 footer .info {
